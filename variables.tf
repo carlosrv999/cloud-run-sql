@@ -22,3 +22,8 @@ variable "db_password" {
   type        = string
   description = "PostgreSQL DB Password"
 }
+
+variable "db_instance_name" {
+  type        = string
+  description = "PostgreSQL DB Password"
+}
